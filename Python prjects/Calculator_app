@@ -1,0 +1,41 @@
+number_f = int(input("Number: "))
+print("List of operators:\n" 
+"Addition = +,\n" 
+"Subtraction = -,\n" 
+"Muliplication = *,\n" 
+"Division = /,\n" 
+"Modulus = %,\n" 
+"Square = **")
+operator = input("Choose an operator: ")
+#number_s = int(input(""))
+if operator == "+" :
+    number_s = int(input("Number: "))
+    sum = (number_f + number_s)
+    print (sum)
+elif operator == "-":
+    number_s = int(input("Number: "))
+    minus = (number_f - number_s)
+    print (minus)
+elif operator == "*":
+    number_s = int(input("Number: "))
+    mult = (number_f * number_s)
+    print (mult)
+elif operator == "/":
+    number_s = int(input("Number: "))
+    div = ((number_f / number_s))
+    print (div)
+elif operator == "%":
+    number_s = int(input("Number: "))
+    mod = ((number_f % number_s))
+    print (mod)
+elif operator == "**":
+    number_s = int(input("Number: "))
+    sqrt = ((number_f ** number_s))
+    print (sqrt)
+
+
+    
+
+    
+    
+        
